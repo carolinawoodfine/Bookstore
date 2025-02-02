@@ -18,10 +18,10 @@ public class Book {
 
     }
 
-    public Book(String title, String author, String isbn, double price, int publicationYear){
+    public Book(String author, String title, String isbn, double price, int publicationYear){
         super();
-        this.title = title;
         this.author = author;
+        this.title = title;
         this.isbn = isbn;
         this.price = price;
         this.publicationYear = publicationYear;
